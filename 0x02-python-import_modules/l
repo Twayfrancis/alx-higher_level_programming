@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+def print_alphabet(char = 'A'):
+    if ord(char) <= ord('Z'):
+        print(char, end='')
+        print_alphabet(chr(ord(char) + 1))
+        print_alphabet()
+print()
