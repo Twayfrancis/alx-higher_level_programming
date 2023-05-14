@@ -12,4 +12,3 @@ def delete_at(my_list=[], idx=0):
         my_list[i] = my_list[i + 1]
     my_list.pop()
     return my_list
-
