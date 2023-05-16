@@ -1,6 +1,10 @@
 #include <Python.h>
 #include <object.h>
 #include <listobject.h>
+/**
+ * print_python_list_info - prints info about python list obj
+ * @p: the python list obj
+ */
 void print_python_list_info(PyObject *p)
 {
 	long int size = PyList_Size(p);
