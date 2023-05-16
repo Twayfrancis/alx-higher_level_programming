@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 import sys
-if __name__== '__main__':
-    num_args = len(sys.argv) - 1
+if __name__ == '__main__':
+    num = len(sys.argv) - 1
     arg_list = sys.argv[1:]
-    print("{} argument{}:".format(num_args, 's' if num_args != 1 else ''), end='')
-    if num_args == 0:
+    print("{} argument{}:".format(num, 's' if num != 1 else ''), end='')
+
+    if num == 0:
         print(".")
     else:
         print()
