@@ -4,13 +4,5 @@
 
 
 def lookup(obj):
-    """Returns a list of the available attributes and methods of an object.
-
-    Args:
-        obj: The object to lookup.
-
-    Returns:
-        list of strings, each string is name of attribute or method of object
-    """
-
+    """Returns a list of the available attributes and methods of obj"""
     return dir(obj)
