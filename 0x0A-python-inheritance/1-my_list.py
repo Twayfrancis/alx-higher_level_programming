@@ -2,7 +2,6 @@
 """ creates a class inheriting list class"""
 
 
-
 class MyList(list):
     """ inherits from list"""
     def print_sorted(self):
