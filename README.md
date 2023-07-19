@@ -1,1 +1,1 @@
-first python readme
+0x06. Python - Classes and Objects
