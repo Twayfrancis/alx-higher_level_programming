@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """defines peak algorith"""
 
+
 def find_peak(list_of_integers):
     """ finds a peak in a list of unsorted integers,
         Args:
